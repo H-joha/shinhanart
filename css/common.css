@@ -14,6 +14,22 @@ html {
   font-size: 62.5%;
 }
 
+:root {
+  --color-point01: #E30613;
+  --color-point02: #0000FF;
+
+  --color-point03: #EEEEEE;
+  --color-point04: #FFFFFF;
+
+  --color-point05: #000000;
+  --color-point06: #222222;
+  --color-point07: #282828;
+  --color-point08: #333333;
+  --color-point09: #313131;
+  --color-point10: #666666;
+  --color-point11: #999999;
+}
+
 /* 반응형, 모바일에서 모든요소의 패딩,선을 크기안에 포함시킴 */
 /* 레이아웃에 관련되므로 운영코딩시에는 주의를 요함 */
 *,:before,:after { box-sizing: border-box; }
@@ -124,10 +140,6 @@ select {
 }
 /* 익스 화살표 제거 */
 select::-ms-expand { display: none; }
-
-/* 글자색 공통 */
-.txt_point01 { color: #ca0202; }
-.txt_point02 { color: #ec870c; }
 
 /* 크롬,엣지 스크롤바 */
 /* ::-webkit-scrollbar { width:8px; background: #eee; } */
